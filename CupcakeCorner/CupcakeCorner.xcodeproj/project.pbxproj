@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5291EA2591541F001E7460 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5291E92591541F001E7460 /* CheckoutView.swift */; };
 		DAC2550E25521DB2009071FE /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2550D25521DB2009071FE /* CupcakeCornerApp.swift */; };
 		DAC2551025521DB2009071FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2550F25521DB2009071FE /* ContentView.swift */; };
 		DAC2551225521DB6009071FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC2551125521DB6009071FE /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA5291E92591541F001E7460 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		DAC2550A25521DB2009071FE /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC2550D25521DB2009071FE /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		DAC2550F25521DB2009071FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +58,11 @@
 			children = (
 				DAC2550D25521DB2009071FE /* CupcakeCornerApp.swift */,
 				DAC2550F25521DB2009071FE /* ContentView.swift */,
+				DAC2551D25523B05009071FE /* AddressView.swift */,
+				DA5291E92591541F001E7460 /* CheckoutView.swift */,
 				DAC2551125521DB6009071FE /* Assets.xcassets */,
 				DAC2551625521DB6009071FE /* Info.plist */,
 				DAC2551325521DB6009071FE /* Preview Content */,
-				DAC2551D25523B05009071FE /* AddressView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				DAC2551025521DB2009071FE /* ContentView.swift in Sources */,
 				DAC2550E25521DB2009071FE /* CupcakeCornerApp.swift in Sources */,
+				DA5291EA2591541F001E7460 /* CheckoutView.swift in Sources */,
 				DAC2551E25523B05009071FE /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
